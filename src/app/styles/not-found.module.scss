@@ -1,0 +1,16 @@
+@import "./variables.module.scss";
+
+.error {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 28px;
+  font-weight: 600;
+  user-select: none;
+  color: white;
+  background-color: $main-color;
+  text-shadow: 0 0 1px 1px white;
+}
